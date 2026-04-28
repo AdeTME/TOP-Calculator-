@@ -22,4 +22,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.row button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    height: 60px;
+    width: 90px;
+}
 
+#displayArea{
+    border: 2px solid black;
+    flex-grow: 0.5;
+}
